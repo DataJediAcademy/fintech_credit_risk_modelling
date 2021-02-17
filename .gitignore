@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Exclude folder
+p2p_loans_470k_data/
+
 # Distribution / packaging
 .Python
 build/

@@ -25,7 +25,7 @@ A week after your resumption, you get a mail from your boss with the following d
 - Using Python, perform an exploratory data analysis (EDA) on the data provided by [LendingClub](https://www.lendingclub.com/) 
   - your EDA should provide insights that would enable [LendingClub](https://www.lendingclub.com/) provide better customized offerings to its customers.
 - Develop a regression model that predicts if a customer would default or not (N.B - try out different models)
-- Develop a customer risk categorization model (Low, Medium, High)
+- Develop a customer risk categorization model using the FICO 5 levels rating (Poor, Fair, Good, Very Good, Exceptional) - see details on [FICO credit score range](https://www.myfico.com/credit-education/credit-scores)
 - LendingClub would like to know how knowing the prior knowledge of the FICO helps in determining if a customer would default or not
 - Can you build a model to determine a customer's FICO before he is approved a loan. (NB. This would be helpful to enable LendingClub enters markets that do not currently use FICO)
 - Develop a system that makes a counter loan offer to customers 
