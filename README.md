@@ -26,6 +26,8 @@ A week after your resumption, you get a mail from your boss with the following d
   - your EDA should provide insights that would enable [LendingClub](https://www.lendingclub.com/) provide better customized offerings to its customers.
 - Develop a regression model that predicts if a customer would default or not (N.B - try out different models)
 - Develop a customer risk categorization model (Low, Medium, High)
+- LendingClub would like to know how knowing the prior knowledge of the FICO helps in determining if a customer would default or not
+- Can you build a model to determine a customer's FICO before he is approved a loan. (NB. This would be helpful to enable LendingClub enters markets that do not currently use FICO)
 - Develop a system that makes a counter loan offer to customers 
 
  
@@ -44,7 +46,7 @@ A week after your resumption, you get a mail from your boss with the following d
 - Using Postman to develop the API documentation 
 - Test your APIs using Postman.
 - Deploy your API  on a cloud server of your choice using Docker.
-- Investigate how to leverages existing  MLOps solutions to manage your models - Azure Machine Learning Service, [MLFlow](https://mlflow.org/)
+- Investigate how to leverages existing  MLOps solutions to manage your models - [Azure Machine Learning services](https://azure.microsoft.com/en-us/services/, [MLFlow](https://mlflow.org/)
 
 ### Additional Deliverables (compulsory for Data/ML engineers but optional for data scientists)
 - API that predicts potential loan defaulter and assign risk level
