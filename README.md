@@ -12,6 +12,7 @@ A week after your resumption, you get a mail from your boss with the following d
 > We also want to be able to make a counter offer (such amount loan requested, repayment period and Interest rates) to a potential customer who may be able to afford to service a lower loan amount.  
 
 >Please remember that the financial industy is highly regulated, hence whatever solution you come up with, regulators and auditors  should clearly understand how we arrive our decision.  This should no however limit the innovation you bring to this challenge.  As  an equal-opportunity organization, we would want to have insight into possible biases your solution may have to enable us determine if we can effectively mitigate the risk.
+
 >
 
 ### Tools
