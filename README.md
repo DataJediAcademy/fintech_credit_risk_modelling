@@ -1,4 +1,4 @@
-# Fintech: Loan  Default Prediction and Risk Categorization
+# Fintech: Credit Risk Modelling 
 
 ## Project Brief
 You just got hired as a remote data scientist into [LendingClub](https://www.lendingclub.com/) a peer-to-peer lending company (offers micro loans to individuals)
@@ -9,9 +9,9 @@ A week after your resumption, you get a mail from your boss with the following d
 > 
 > Welcome onboard, we need you and your team to help  us create a solution that  would address a current challenge we are experiencing with converting potential customers. We have observed that  our convertion process (from prospective customer to actual customer) is rather too long.  We would like to reduce this. Verified customers should be able  to  take a self assessment, sign-up for loan on  our web and mobile apps  and have it disbursed  to them  with no interaction with our relationship officers as it exist today.  Our IT solution system should determine their risk category, the likelihood of the customer defaulting (will the customer default or not and what is the chance) and disburse a loan automatically.
 
-> We also want to be able to make a counter offer (such amount loan requested, repayment period and Interest rates) to a potential customer who may be able to afford to service a lower loan amount.  
+> We also want to be able to make a counter offer (such as loan amount requested, repayment period and Interest rates) to a potential customer who may be able to afford  a lower loan amount.  
 
->Please remember that the financial industy is highly regulated, hence whatever solution you come up with, regulators and auditors  should clearly understand how we arrive our decision.  This should no however limit the innovation you bring to this challenge.  As  an equal-opportunity organization, we would want to have insight into possible biases your solution may have to enable us determine if we can effectively mitigate the risk.
+>Please remember that the financial industy is highly regulated, hence whatever solution you come up with, regulators and auditors  should clearly understand how we arrived at our decision.  This should not however limit the innovation you bring to this challenge.  As  an equal-opportunity organization, we would want to have insight into possible biases your solution may have to enable us determine if we can effectively mitigate the risk.
 
 >
 
@@ -26,15 +26,15 @@ A week after your resumption, you get a mail from your boss with the following d
   - your EDA should provide insights that would enable [LendingClub](https://www.lendingclub.com/) provide better customized offerings to its customers.
 - Develop a regression model that predicts if a customer would default or not (N.B - try out different models)
 - Develop a customer risk categorization model using the FICO 5 levels rating (Poor, Fair, Good, Very Good, Exceptional) - see details on [FICO credit score range](https://www.myfico.com/credit-education/credit-scores)
-- LendingClub would like to know how knowing the prior knowledge of the FICO helps in determining if a customer would default or not
-- Can you build a model to determine a customer's FICO before he is approved a loan. (NB. This would be helpful to enable LendingClub enters markets that do not currently use FICO)
+- LendingClub would like to know how  the prior knowledge of the FICO helps in determining if a customer would default or not.
+- Can you build a model to determine a customer's FICO before he/she has a loan approved. (NB. This would be helpful to enable LendingClub enters markets that do not currently use FICO)
 - Develop a system that makes a counter loan offer to customers 
 
  
 
 ### Deliverables
 - ML model that predicts  potential loan defaulter and assign risk level
-- counter offer for customers with medium and high risk 
+- Counter offer for customers with medium to high risk
 - Exploratory data analysis pointing out valuable insight that help with targeted management of loan for already existing customers.
 - Potential biases  that may exist within the data
 
@@ -46,7 +46,7 @@ A week after your resumption, you get a mail from your boss with the following d
 - Using Postman to develop the API documentation 
 - Test your APIs using Postman.
 - Deploy your API  on a cloud server of your choice using Docker.
-- Investigate how to leverages existing  MLOps solutions to manage your models - [Azure Machine Learning services](https://azure.microsoft.com/en-us/services/, [MLFlow](https://mlflow.org/)
+- Investigate how to leverages existing  MLOps solutions to manage your models - [Azure Machine Learning services](https://azure.microsoft.com/en-us/services/), [MLFlow](https://mlflow.org/)
 
 ### Additional Deliverables (compulsory for Data/ML engineers but optional for data scientists)
 - API that predicts potential loan defaulter and assign risk level
